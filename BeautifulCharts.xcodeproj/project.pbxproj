@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		FA9EA6B922393C50001FB5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6B822393C50001FB5F3 /* AppDelegate.swift */; };
-		FA9EA6BB22393C50001FB5F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6BA22393C50001FB5F3 /* ViewController.swift */; };
-		FA9EA6BE22393C50001FB5F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EA6BC22393C50001FB5F3 /* Main.storyboard */; };
+		FA9EA6BB22393C50001FB5F3 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6BA22393C50001FB5F3 /* ChartsViewController.swift */; };
 		FA9EA6C022393C51001FB5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EA6BF22393C51001FB5F3 /* Assets.xcassets */; };
 		FA9EA6C322393C51001FB5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EA6C122393C51001FB5F3 /* LaunchScreen.storyboard */; };
+		FA9EA6CB22393FFB001FB5F3 /* chart_data.json in Resources */ = {isa = PBXBuildFile; fileRef = FA9EA6CA22393FFB001FB5F3 /* chart_data.json */; };
+		FA9EA6CE2239414B001FB5F3 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6CD2239414B001FB5F3 /* ChartData.swift */; };
+		FA9EA6D3223946C4001FB5F3 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6D1223946C4001FB5F3 /* Configurable.swift */; };
+		FA9EA6D4223946C4001FB5F3 /* MakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6D2223946C4001FB5F3 /* MakeView.swift */; };
+		FA9EA6D62239470F001FB5F3 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6D52239470F001FB5F3 /* UITableView+Register.swift */; };
+		FA9EA6D822394717001FB5F3 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6D722394717001FB5F3 /* UIColor+Hex.swift */; };
+		FA9EA6DB22394721001FB5F3 /* NSLayoutConstraint+Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6D922394721001FB5F3 /* NSLayoutConstraint+Priority.swift */; };
+		FA9EA6DC22394721001FB5F3 /* NSLayoutConstraint+Activate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6DA22394721001FB5F3 /* NSLayoutConstraint+Activate.swift */; };
+		FA9EA6DE2239479B001FB5F3 /* DynamicCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */; };
+		FA9EA6E122396737001FB5F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E022396737001FB5F3 /* ChartView.swift */; };
+		FA9EA6E32239681B001FB5F3 /* LineSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E22239681B001FB5F3 /* LineSelector.swift */; };
+		FA9EA6E5223968A2001FB5F3 /* LineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E4223968A2001FB5F3 /* LineTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA9EA6B522393C50001FB5F3 /* BeautifulCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EA6B822393C50001FB5F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA9EA6BA22393C50001FB5F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA9EA6BD22393C50001FB5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9EA6BA22393C50001FB5F3 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		FA9EA6BF22393C51001FB5F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9EA6C222393C51001FB5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9EA6C422393C51001FB5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9EA6CA22393FFB001FB5F3 /* chart_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chart_data.json; sourceTree = "<group>"; };
+		FA9EA6CD2239414B001FB5F3 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		FA9EA6D1223946C4001FB5F3 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		FA9EA6D2223946C4001FB5F3 /* MakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeView.swift; sourceTree = "<group>"; };
+		FA9EA6D52239470F001FB5F3 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
+		FA9EA6D722394717001FB5F3 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		FA9EA6D922394721001FB5F3 /* NSLayoutConstraint+Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Priority.swift"; sourceTree = "<group>"; };
+		FA9EA6DA22394721001FB5F3 /* NSLayoutConstraint+Activate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Activate.swift"; sourceTree = "<group>"; };
+		FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCodingKey.swift; sourceTree = "<group>"; };
+		FA9EA6E022396737001FB5F3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		FA9EA6E22239681B001FB5F3 /* LineSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSelector.swift; sourceTree = "<group>"; };
+		FA9EA6E4223968A2001FB5F3 /* LineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,57 @@
 		FA9EA6B722393C50001FB5F3 /* BeautifulCharts */ = {
 			isa = PBXGroup;
 			children = (
+				FA9EA6D022394674001FB5F3 /* Extensions */,
+				FA9EA6CF2239466E001FB5F3 /* Utils */,
+				FA9EA6CC2239401A001FB5F3 /* Chart */,
 				FA9EA6B822393C50001FB5F3 /* AppDelegate.swift */,
-				FA9EA6BA22393C50001FB5F3 /* ViewController.swift */,
-				FA9EA6BC22393C50001FB5F3 /* Main.storyboard */,
+				FA9EA6BA22393C50001FB5F3 /* ChartsViewController.swift */,
+				FA9EA6CA22393FFB001FB5F3 /* chart_data.json */,
 				FA9EA6BF22393C51001FB5F3 /* Assets.xcassets */,
 				FA9EA6C122393C51001FB5F3 /* LaunchScreen.storyboard */,
 				FA9EA6C422393C51001FB5F3 /* Info.plist */,
 			);
 			path = BeautifulCharts;
+			sourceTree = "<group>";
+		};
+		FA9EA6CC2239401A001FB5F3 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA6DF22396726001FB5F3 /* ChartView */,
+				FA9EA6CD2239414B001FB5F3 /* ChartData.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		FA9EA6CF2239466E001FB5F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA6D1223946C4001FB5F3 /* Configurable.swift */,
+				FA9EA6D2223946C4001FB5F3 /* MakeView.swift */,
+				FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA9EA6D022394674001FB5F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA6DA22394721001FB5F3 /* NSLayoutConstraint+Activate.swift */,
+				FA9EA6D922394721001FB5F3 /* NSLayoutConstraint+Priority.swift */,
+				FA9EA6D52239470F001FB5F3 /* UITableView+Register.swift */,
+				FA9EA6D722394717001FB5F3 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA9EA6DF22396726001FB5F3 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA6E022396737001FB5F3 /* ChartView.swift */,
+				FA9EA6E22239681B001FB5F3 /* LineSelector.swift */,
+				FA9EA6E4223968A2001FB5F3 /* LineTableViewCell.swift */,
+			);
+			path = ChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +189,7 @@
 			files = (
 				FA9EA6C322393C51001FB5F3 /* LaunchScreen.storyboard in Resources */,
 				FA9EA6C022393C51001FB5F3 /* Assets.xcassets in Resources */,
-				FA9EA6BE22393C50001FB5F3 /* Main.storyboard in Resources */,
+				FA9EA6CB22393FFB001FB5F3 /* chart_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +200,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9EA6BB22393C50001FB5F3 /* ViewController.swift in Sources */,
+				FA9EA6D822394717001FB5F3 /* UIColor+Hex.swift in Sources */,
+				FA9EA6D62239470F001FB5F3 /* UITableView+Register.swift in Sources */,
+				FA9EA6D4223946C4001FB5F3 /* MakeView.swift in Sources */,
+				FA9EA6DC22394721001FB5F3 /* NSLayoutConstraint+Activate.swift in Sources */,
+				FA9EA6BB22393C50001FB5F3 /* ChartsViewController.swift in Sources */,
+				FA9EA6CE2239414B001FB5F3 /* ChartData.swift in Sources */,
+				FA9EA6D3223946C4001FB5F3 /* Configurable.swift in Sources */,
+				FA9EA6E122396737001FB5F3 /* ChartView.swift in Sources */,
+				FA9EA6DE2239479B001FB5F3 /* DynamicCodingKey.swift in Sources */,
 				FA9EA6B922393C50001FB5F3 /* AppDelegate.swift in Sources */,
+				FA9EA6E32239681B001FB5F3 /* LineSelector.swift in Sources */,
+				FA9EA6DB22394721001FB5F3 /* NSLayoutConstraint+Priority.swift in Sources */,
+				FA9EA6E5223968A2001FB5F3 /* LineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA9EA6BC22393C50001FB5F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA9EA6BD22393C50001FB5F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA9EA6C122393C51001FB5F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
