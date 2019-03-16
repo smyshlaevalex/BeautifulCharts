@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1775B5223975CC005A24D3 /* UIView+Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1775B4223975CC005A24D3 /* UIView+Edges.swift */; };
+		FA1775B722397B71005A24D3 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1775B622397B71005A24D3 /* LineChartView.swift */; };
+		FA1775B922397DC5005A24D3 /* ChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1775B822397DC5005A24D3 /* ChartRenderer.swift */; };
+		FA42A83B223A9E930095F058 /* ChartBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42A83A223A9E930095F058 /* ChartBaseView.swift */; };
+		FA42A83E223AD72E0095F058 /* ChartDateSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42A83D223AD72E0095F058 /* ChartDateSliderView.swift */; };
+		FA42A840223AE43D0095F058 /* ChartDateSliderThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42A83F223AE43D0095F058 /* ChartDateSliderThumbView.swift */; };
+		FA595A8D223B92AD00139F69 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA595A8C223B92AD00139F69 /* UIImage+Icons.swift */; };
+		FA9D0A52223DB7170009325B /* NSObject+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A4F223DB7170009325B /* NSObject+Appearance.swift */; };
+		FA9D0A53223DB7170009325B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A50223DB7170009325B /* Theme.swift */; };
+		FA9D0A54223DB7170009325B /* UIColor+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A51223DB7170009325B /* UIColor+Appearance.swift */; };
+		FA9D0A5C223DB7B60009325B /* AppearanceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A56223DB7B60009325B /* AppearanceTableView.swift */; };
+		FA9D0A5D223DB7B60009325B /* AppearanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A57223DB7B60009325B /* AppearanceTableViewCell.swift */; };
+		FA9D0A5E223DB7B60009325B /* AppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A58223DB7B60009325B /* AppearanceView.swift */; };
+		FA9D0A5F223DB7B60009325B /* AppearanceNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A59223DB7B60009325B /* AppearanceNavigationBar.swift */; };
+		FA9D0A60223DB7B60009325B /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D0A5A223DB7B60009325B /* AppearanceViewController.swift */; };
 		FA9EA6B922393C50001FB5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6B822393C50001FB5F3 /* AppDelegate.swift */; };
 		FA9EA6BB22393C50001FB5F3 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6BA22393C50001FB5F3 /* ChartsViewController.swift */; };
 		FA9EA6C022393C51001FB5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EA6BF22393C51001FB5F3 /* Assets.xcassets */; };
@@ -21,11 +36,25 @@
 		FA9EA6DC22394721001FB5F3 /* NSLayoutConstraint+Activate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6DA22394721001FB5F3 /* NSLayoutConstraint+Activate.swift */; };
 		FA9EA6DE2239479B001FB5F3 /* DynamicCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */; };
 		FA9EA6E122396737001FB5F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E022396737001FB5F3 /* ChartView.swift */; };
-		FA9EA6E32239681B001FB5F3 /* LineSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E22239681B001FB5F3 /* LineSelector.swift */; };
-		FA9EA6E5223968A2001FB5F3 /* LineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E4223968A2001FB5F3 /* LineTableViewCell.swift */; };
+		FA9EA6E32239681B001FB5F3 /* LineSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E22239681B001FB5F3 /* LineSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1775B4223975CC005A24D3 /* UIView+Edges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Edges.swift"; sourceTree = "<group>"; };
+		FA1775B622397B71005A24D3 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		FA1775B822397DC5005A24D3 /* ChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRenderer.swift; sourceTree = "<group>"; };
+		FA42A83A223A9E930095F058 /* ChartBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBaseView.swift; sourceTree = "<group>"; };
+		FA42A83D223AD72E0095F058 /* ChartDateSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDateSliderView.swift; sourceTree = "<group>"; };
+		FA42A83F223AE43D0095F058 /* ChartDateSliderThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDateSliderThumbView.swift; sourceTree = "<group>"; };
+		FA595A8C223B92AD00139F69 /* UIImage+Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Icons.swift"; sourceTree = "<group>"; };
+		FA9D0A4F223DB7170009325B /* NSObject+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Appearance.swift"; sourceTree = "<group>"; };
+		FA9D0A50223DB7170009325B /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FA9D0A51223DB7170009325B /* UIColor+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Appearance.swift"; sourceTree = "<group>"; };
+		FA9D0A56223DB7B60009325B /* AppearanceTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceTableView.swift; sourceTree = "<group>"; };
+		FA9D0A57223DB7B60009325B /* AppearanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceTableViewCell.swift; sourceTree = "<group>"; };
+		FA9D0A58223DB7B60009325B /* AppearanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceView.swift; sourceTree = "<group>"; };
+		FA9D0A59223DB7B60009325B /* AppearanceNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceNavigationBar.swift; sourceTree = "<group>"; };
+		FA9D0A5A223DB7B60009325B /* AppearanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
 		FA9EA6B522393C50001FB5F3 /* BeautifulCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EA6B822393C50001FB5F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9EA6BA22393C50001FB5F3 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +71,7 @@
 		FA9EA6DA22394721001FB5F3 /* NSLayoutConstraint+Activate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Activate.swift"; sourceTree = "<group>"; };
 		FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCodingKey.swift; sourceTree = "<group>"; };
 		FA9EA6E022396737001FB5F3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		FA9EA6E22239681B001FB5F3 /* LineSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSelector.swift; sourceTree = "<group>"; };
-		FA9EA6E4223968A2001FB5F3 /* LineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTableViewCell.swift; sourceTree = "<group>"; };
+		FA9EA6E22239681B001FB5F3 /* LineSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +85,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA42A83C223AD7050095F058 /* ChartDateSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FA42A83D223AD72E0095F058 /* ChartDateSliderView.swift */,
+				FA42A83F223AE43D0095F058 /* ChartDateSliderThumbView.swift */,
+			);
+			path = ChartDateSlider;
+			sourceTree = "<group>";
+		};
+		FA595A8B223B917900139F69 /* LineSelector */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EA6E22239681B001FB5F3 /* LineSelectorView.swift */,
+			);
+			path = LineSelector;
+			sourceTree = "<group>";
+		};
+		FA9D0A4D223DB6DE0009325B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D0A50223DB7170009325B /* Theme.swift */,
+				FA9D0A4F223DB7170009325B /* NSObject+Appearance.swift */,
+				FA9D0A51223DB7170009325B /* UIColor+Appearance.swift */,
+				FA9D0A4E223DB6E40009325B /* Appearance */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		FA9D0A4E223DB6E40009325B /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D0A59223DB7B60009325B /* AppearanceNavigationBar.swift */,
+				FA9D0A56223DB7B60009325B /* AppearanceTableView.swift */,
+				FA9D0A57223DB7B60009325B /* AppearanceTableViewCell.swift */,
+				FA9D0A58223DB7B60009325B /* AppearanceView.swift */,
+				FA9D0A5A223DB7B60009325B /* AppearanceViewController.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
 		FA9EA6AC22393C50001FB5F3 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +144,7 @@
 		FA9EA6B722393C50001FB5F3 /* BeautifulCharts */ = {
 			isa = PBXGroup;
 			children = (
+				FA9D0A4D223DB6DE0009325B /* Theme */,
 				FA9EA6D022394674001FB5F3 /* Extensions */,
 				FA9EA6CF2239466E001FB5F3 /* Utils */,
 				FA9EA6CC2239401A001FB5F3 /* Chart */,
@@ -113,8 +182,10 @@
 			children = (
 				FA9EA6DA22394721001FB5F3 /* NSLayoutConstraint+Activate.swift */,
 				FA9EA6D922394721001FB5F3 /* NSLayoutConstraint+Priority.swift */,
+				FA1775B4223975CC005A24D3 /* UIView+Edges.swift */,
 				FA9EA6D52239470F001FB5F3 /* UITableView+Register.swift */,
 				FA9EA6D722394717001FB5F3 /* UIColor+Hex.swift */,
+				FA595A8C223B92AD00139F69 /* UIImage+Icons.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -122,9 +193,12 @@
 		FA9EA6DF22396726001FB5F3 /* ChartView */ = {
 			isa = PBXGroup;
 			children = (
+				FA595A8B223B917900139F69 /* LineSelector */,
+				FA42A83C223AD7050095F058 /* ChartDateSlider */,
+				FA1775B822397DC5005A24D3 /* ChartRenderer.swift */,
 				FA9EA6E022396737001FB5F3 /* ChartView.swift */,
-				FA9EA6E22239681B001FB5F3 /* LineSelector.swift */,
-				FA9EA6E4223968A2001FB5F3 /* LineTableViewCell.swift */,
+				FA1775B622397B71005A24D3 /* LineChartView.swift */,
+				FA42A83A223A9E930095F058 /* ChartBaseView.swift */,
 			);
 			path = ChartView;
 			sourceTree = "<group>";
@@ -200,19 +274,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA42A83E223AD72E0095F058 /* ChartDateSliderView.swift in Sources */,
 				FA9EA6D822394717001FB5F3 /* UIColor+Hex.swift in Sources */,
+				FA9D0A5D223DB7B60009325B /* AppearanceTableViewCell.swift in Sources */,
+				FA9D0A60223DB7B60009325B /* AppearanceViewController.swift in Sources */,
+				FA595A8D223B92AD00139F69 /* UIImage+Icons.swift in Sources */,
+				FA1775B5223975CC005A24D3 /* UIView+Edges.swift in Sources */,
 				FA9EA6D62239470F001FB5F3 /* UITableView+Register.swift in Sources */,
 				FA9EA6D4223946C4001FB5F3 /* MakeView.swift in Sources */,
+				FA9D0A53223DB7170009325B /* Theme.swift in Sources */,
 				FA9EA6DC22394721001FB5F3 /* NSLayoutConstraint+Activate.swift in Sources */,
+				FA9D0A52223DB7170009325B /* NSObject+Appearance.swift in Sources */,
+				FA9D0A54223DB7170009325B /* UIColor+Appearance.swift in Sources */,
+				FA42A840223AE43D0095F058 /* ChartDateSliderThumbView.swift in Sources */,
 				FA9EA6BB22393C50001FB5F3 /* ChartsViewController.swift in Sources */,
 				FA9EA6CE2239414B001FB5F3 /* ChartData.swift in Sources */,
+				FA1775B922397DC5005A24D3 /* ChartRenderer.swift in Sources */,
+				FA9D0A5E223DB7B60009325B /* AppearanceView.swift in Sources */,
+				FA9D0A5C223DB7B60009325B /* AppearanceTableView.swift in Sources */,
 				FA9EA6D3223946C4001FB5F3 /* Configurable.swift in Sources */,
+				FA42A83B223A9E930095F058 /* ChartBaseView.swift in Sources */,
 				FA9EA6E122396737001FB5F3 /* ChartView.swift in Sources */,
 				FA9EA6DE2239479B001FB5F3 /* DynamicCodingKey.swift in Sources */,
 				FA9EA6B922393C50001FB5F3 /* AppDelegate.swift in Sources */,
-				FA9EA6E32239681B001FB5F3 /* LineSelector.swift in Sources */,
+				FA1775B722397B71005A24D3 /* LineChartView.swift in Sources */,
+				FA9EA6E32239681B001FB5F3 /* LineSelectorView.swift in Sources */,
+				FA9D0A5F223DB7B60009325B /* AppearanceNavigationBar.swift in Sources */,
 				FA9EA6DB22394721001FB5F3 /* NSLayoutConstraint+Priority.swift in Sources */,
-				FA9EA6E5223968A2001FB5F3 /* LineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
