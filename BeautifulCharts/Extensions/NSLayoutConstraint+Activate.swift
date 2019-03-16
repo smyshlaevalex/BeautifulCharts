@@ -16,6 +16,18 @@ extension NSLayoutConstraint {
     func deactivate() {
         isActive = false
     }
+    
+    func activated() -> NSLayoutConstraint {
+        isActive = true
+        
+        return self
+    }
+    
+    func deactivated() -> NSLayoutConstraint {
+        isActive = false
+        
+        return self
+    }
 }
 
 extension Array where Element == NSLayoutConstraint {
@@ -25,5 +37,17 @@ extension Array where Element == NSLayoutConstraint {
     
     func deactivate() {
         NSLayoutConstraint.deactivate(self)
+    }
+    
+    func activated() -> [NSLayoutConstraint] {
+        NSLayoutConstraint.activate(self)
+        
+        return self
+    }
+    
+    func deactivated() -> [NSLayoutConstraint] {
+        NSLayoutConstraint.deactivate(self)
+        
+        return self
     }
 }
