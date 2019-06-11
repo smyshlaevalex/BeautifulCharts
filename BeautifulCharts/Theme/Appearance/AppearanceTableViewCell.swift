@@ -12,6 +12,8 @@ class AppearanceTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
+        textLabel?.backgroundColor = .clear
+        
         let backgroundColorView = UIView()
         selectedBackgroundView = backgroundColorView
         

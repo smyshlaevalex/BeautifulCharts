@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct ChartData: Decodable {
+struct ChartData: Equatable, Decodable {
     private enum ChartCodingKeys: String, CodingKey {
         case columns, types, colors, names
     }
@@ -17,13 +17,17 @@ struct ChartData: Decodable {
         case line, x
     }
     
-    struct Column {
+    struct Column: Equatable {
         let name: String
         let color: UIColor
         let values: [Double]
+        
+        static func == (lhs: Column, rhs: Column) -> Bool {
+            return lhs.name == rhs.name
+        }
     }
     
-    let xValues: [Date]
+    let xValues: [TimeInterval]
     let columns: [Column]
     
     init(from decoder: Decoder) throws {
@@ -71,10 +75,7 @@ struct ChartData: Decodable {
                                                                 xIdentifier: xIdentifier,
                                                                 lineIdentifiers: lineIdentifiers)
         
-        let xDateValues = xValues.map { Date(timeIntervalSince1970: $0) }
-        
-        
-        self.xValues = xDateValues
+        self.xValues = xValues
         
         columns = (0..<lineIdentifiers.count).map { index -> Column in
             let name = names[index]

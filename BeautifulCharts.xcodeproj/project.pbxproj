@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		FA1775B5223975CC005A24D3 /* UIView+Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1775B4223975CC005A24D3 /* UIView+Edges.swift */; };
 		FA1775B722397B71005A24D3 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1775B622397B71005A24D3 /* LineChartView.swift */; };
-		FA1775B922397DC5005A24D3 /* ChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1775B822397DC5005A24D3 /* ChartRenderer.swift */; };
+		FA22F5A522457F8700E1DC2F /* ValuePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22F5A422457F8700E1DC2F /* ValuePopupView.swift */; };
+		FA36CFF7223E38FA004C8DC5 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36CFF6223E38FA004C8DC5 /* ChartTableViewCell.swift */; };
 		FA42A83B223A9E930095F058 /* ChartBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42A83A223A9E930095F058 /* ChartBaseView.swift */; };
 		FA42A83E223AD72E0095F058 /* ChartDateSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42A83D223AD72E0095F058 /* ChartDateSliderView.swift */; };
 		FA42A840223AE43D0095F058 /* ChartDateSliderThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42A83F223AE43D0095F058 /* ChartDateSliderThumbView.swift */; };
@@ -37,12 +38,14 @@
 		FA9EA6DE2239479B001FB5F3 /* DynamicCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */; };
 		FA9EA6E122396737001FB5F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E022396737001FB5F3 /* ChartView.swift */; };
 		FA9EA6E32239681B001FB5F3 /* LineSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EA6E22239681B001FB5F3 /* LineSelectorView.swift */; };
+		FAD3671C2243C84000FD8EF4 /* AppearanceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3671B2243C84000FD8EF4 /* AppearanceLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA1775B4223975CC005A24D3 /* UIView+Edges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Edges.swift"; sourceTree = "<group>"; };
 		FA1775B622397B71005A24D3 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
-		FA1775B822397DC5005A24D3 /* ChartRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRenderer.swift; sourceTree = "<group>"; };
+		FA22F5A422457F8700E1DC2F /* ValuePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuePopupView.swift; sourceTree = "<group>"; };
+		FA36CFF6223E38FA004C8DC5 /* ChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableViewCell.swift; sourceTree = "<group>"; };
 		FA42A83A223A9E930095F058 /* ChartBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBaseView.swift; sourceTree = "<group>"; };
 		FA42A83D223AD72E0095F058 /* ChartDateSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDateSliderView.swift; sourceTree = "<group>"; };
 		FA42A83F223AE43D0095F058 /* ChartDateSliderThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDateSliderThumbView.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		FA9EA6DD2239479B001FB5F3 /* DynamicCodingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCodingKey.swift; sourceTree = "<group>"; };
 		FA9EA6E022396737001FB5F3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		FA9EA6E22239681B001FB5F3 /* LineSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSelectorView.swift; sourceTree = "<group>"; };
+		FAD3671B2243C84000FD8EF4 /* AppearanceLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				FA9D0A59223DB7B60009325B /* AppearanceNavigationBar.swift */,
 				FA9D0A56223DB7B60009325B /* AppearanceTableView.swift */,
 				FA9D0A57223DB7B60009325B /* AppearanceTableViewCell.swift */,
+				FAD3671B2243C84000FD8EF4 /* AppearanceLabel.swift */,
 				FA9D0A58223DB7B60009325B /* AppearanceView.swift */,
 				FA9D0A5A223DB7B60009325B /* AppearanceViewController.swift */,
 			);
@@ -150,6 +155,7 @@
 				FA9EA6CC2239401A001FB5F3 /* Chart */,
 				FA9EA6B822393C50001FB5F3 /* AppDelegate.swift */,
 				FA9EA6BA22393C50001FB5F3 /* ChartsViewController.swift */,
+				FA36CFF6223E38FA004C8DC5 /* ChartTableViewCell.swift */,
 				FA9EA6CA22393FFB001FB5F3 /* chart_data.json */,
 				FA9EA6BF22393C51001FB5F3 /* Assets.xcassets */,
 				FA9EA6C122393C51001FB5F3 /* LaunchScreen.storyboard */,
@@ -195,10 +201,10 @@
 			children = (
 				FA595A8B223B917900139F69 /* LineSelector */,
 				FA42A83C223AD7050095F058 /* ChartDateSlider */,
-				FA1775B822397DC5005A24D3 /* ChartRenderer.swift */,
 				FA9EA6E022396737001FB5F3 /* ChartView.swift */,
-				FA1775B622397B71005A24D3 /* LineChartView.swift */,
 				FA42A83A223A9E930095F058 /* ChartBaseView.swift */,
+				FA1775B622397B71005A24D3 /* LineChartView.swift */,
+				FA22F5A422457F8700E1DC2F /* ValuePopupView.swift */,
 			);
 			path = ChartView;
 			sourceTree = "<group>";
@@ -282,14 +288,16 @@
 				FA1775B5223975CC005A24D3 /* UIView+Edges.swift in Sources */,
 				FA9EA6D62239470F001FB5F3 /* UITableView+Register.swift in Sources */,
 				FA9EA6D4223946C4001FB5F3 /* MakeView.swift in Sources */,
+				FA36CFF7223E38FA004C8DC5 /* ChartTableViewCell.swift in Sources */,
 				FA9D0A53223DB7170009325B /* Theme.swift in Sources */,
 				FA9EA6DC22394721001FB5F3 /* NSLayoutConstraint+Activate.swift in Sources */,
+				FA22F5A522457F8700E1DC2F /* ValuePopupView.swift in Sources */,
+				FAD3671C2243C84000FD8EF4 /* AppearanceLabel.swift in Sources */,
 				FA9D0A52223DB7170009325B /* NSObject+Appearance.swift in Sources */,
 				FA9D0A54223DB7170009325B /* UIColor+Appearance.swift in Sources */,
 				FA42A840223AE43D0095F058 /* ChartDateSliderThumbView.swift in Sources */,
 				FA9EA6BB22393C50001FB5F3 /* ChartsViewController.swift in Sources */,
 				FA9EA6CE2239414B001FB5F3 /* ChartData.swift in Sources */,
-				FA1775B922397DC5005A24D3 /* ChartRenderer.swift in Sources */,
 				FA9D0A5E223DB7B60009325B /* AppearanceView.swift in Sources */,
 				FA9D0A5C223DB7B60009325B /* AppearanceTableView.swift in Sources */,
 				FA9EA6D3223946C4001FB5F3 /* Configurable.swift in Sources */,
@@ -438,15 +446,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDQG5G8BQX;
 				INFOPLIST_FILE = BeautifulCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BeautifulCharts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,15 +467,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDQG5G8BQX;
 				INFOPLIST_FILE = BeautifulCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BeautifulCharts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

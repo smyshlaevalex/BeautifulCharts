@@ -1,5 +1,5 @@
 //
-//  AppearanceView.swift
+//  AppearanceLabel.swift
 //  BeautifulCharts
 //
 //  Created by Alexander on 3/14/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppearanceView: UIView {
+class AppearanceLabel: UILabel {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -20,6 +20,6 @@ class AppearanceView: UIView {
     }
     
     override func appearanceDidChange(_ newAppearance: Theme.Appearance) {
-        backgroundColor = .backgroundColor(for: newAppearance)
+        textColor = .textColor(for: newAppearance)
     }
 }
